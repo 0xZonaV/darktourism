@@ -86,6 +86,7 @@ body {
   color: rgb(var(--foreground-rgb));
   background: url("/background_main.jpg") no-repeat;
   background-size: cover;
+  font-family: 'Big Shoulders Display';
 }
 
 a {

@@ -1,15 +1,14 @@
 import styled from "styled-components";
-import bg from "/public/background_main.jpg";
-import {Button, Typography} from "@mui/material";
+import {Button} from "@mui/material";
 import {Box} from "@mui/system";
 import TelegramIcon from "/public/telegramIcon.svg";
 import InstagramIcon from "/public/instagramIcon.svg";
 
-export const DarktourismToJapan = styled(Typography)`
+export const DarktourismToJapan = styled.div`
   width: 100%;
   height: 100%;
   
-  font-family: 'Big Shoulders Display',serif;
+  font-family: 'Big Shoulders Display';
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
@@ -22,7 +21,7 @@ export const DarktourismToJapan = styled(Typography)`
   text-fill-color: transparent;
 `
 
-export const WhatIsDarkTourism = styled(Typography)`
+export const WhatIsDarkTourism = styled.div`
   width: 100%;
   height: 100%;
   
@@ -70,14 +69,16 @@ export const LineWhat = styled.div`
 
 
 export const ButtonLink = styled(Button)`
-  font-family: 'Big Shoulders Display';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 48px;
-  text-transform: lowercase;
-  
- 
+  && {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #FFFFFF;
+  }
   
   display: block;
   
@@ -87,10 +88,10 @@ export const ButtonLink = styled(Button)`
     vertical-align: middle;
   }
 
-  color: #FFFFFF;
+  
 `
 
-export const BigText = styled(Typography)`
+export const BigText = styled.div`
   font-family: 'Big Shoulders Display';
   font-style: normal;
   font-weight: 400;
@@ -118,7 +119,7 @@ export const ContactMeBox = styled.div`
 
 `
 
-export const ContactMeText = styled(Typography)`
+export const ContactMeText = styled.div`
 
   font-family: 'Big Shoulders Display';
   font-style: normal;
