@@ -14,6 +14,9 @@ import ActivityIcon from '/public/activity.svg';
 import TagrightIcon from '/public/tagright.svg';
 import HouseIcon from '/public/house.svg';
 
+const buttons = [
+]
+
 export default function Home() {
 
     return (
@@ -41,23 +44,25 @@ export default function Home() {
               marginLeft: "49%",
               marginRight: "27%",
               marginTop: "13%",
+              display: "block",
           }}>
-              <ButtonLink  startIcon={<VectorIcon />}>
+
+              <ButtonLink  startIcon={<VectorIcon />} key='travelTimeline'>
                   travel timeline
               </ButtonLink>
-              <ButtonLink  startIcon={<ActivityIcon />}>
+              <ButtonLink  startIcon={<ActivityIcon />} key='itenerary'>
                   itenerary
               </ButtonLink>
-              <ButtonLink  startIcon={<TagrightIcon />}>
+              <ButtonLink  startIcon={<TagrightIcon />} key='hiroshima' >
                   hiroshima
               </ButtonLink>
-              <ButtonLink  startIcon={<TagrightIcon />}>
+              <ButtonLink  startIcon={<TagrightIcon />}  key='okunoinCementary' >
                   okunoin cementary
               </ButtonLink>
-              <ButtonLink  startIcon={<TagrightIcon />}>
+              <ButtonLink  startIcon={<TagrightIcon />} key='aokigahara' >
                   aokigahara
               </ButtonLink>
-              <ButtonLink  startIcon={<HouseIcon />}>
+              <ButtonLink  startIcon={<HouseIcon />} key='WhereToStay' >
                   where to stay
               </ButtonLink>
           </Box>

@@ -79,7 +79,8 @@ export const ButtonLink = styled(Button)`
     text-decoration: none;
     color: #FFFFFF;
   }
-  
+
+  white-space: nowrap;
   display: block;
   
   & .MuiButton-startIcon{
