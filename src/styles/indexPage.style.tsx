@@ -77,11 +77,10 @@ export const ButtonLink = styled(Button)`
     line-height: 48px;
     text-transform: lowercase;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #FFFFFF; 
+    white-space: nowrap;
+    display: block;
   }
-
-  white-space: nowrap;
-  display: block;
   
   & .MuiButton-startIcon{
     margin-right: 21px;
