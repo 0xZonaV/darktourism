@@ -1,5 +1,5 @@
 import {Box} from "@mui/system";
-import {RedirectButtonsMapping} from "@/components/RedirectButtons/RedirectButtons.functions";
+import {RedirectButtonsMapping} from "@/components/IndexPage/RedirectButtons/RedirectButtons.functions";
 
 const RedirectButtonsComponent = () => {
     return(

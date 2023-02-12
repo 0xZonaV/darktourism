@@ -1,5 +1,5 @@
-import {RedirectButtons} from "@/components/RedirectButtons/RedirectButtons.const";
-import {ButtonLink} from "@/components/RedirectButtons/RedirectButtons.style";
+import {RedirectButtons} from "@/components/IndexPage/RedirectButtons/RedirectButtons.const";
+import {ButtonLink} from "@/components/IndexPage/RedirectButtons/RedirectButtons.style";
 import Router from "next/router";
 
 

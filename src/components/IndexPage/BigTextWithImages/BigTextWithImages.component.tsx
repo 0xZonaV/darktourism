@@ -1,6 +1,6 @@
 import {Grid} from "@mui/material";
-import BigTextComponent from "@/components/BigTextWithImages/BigText.component";
-import ImagesWithOutTextComponent from "@/components/BigTextWithImages/ImagesWithOutTextComponent";
+import BigTextComponent from "@/components/IndexPage/BigTextWithImages/BigText.component";
+import ImagesWithOutTextComponent from "@/components/IndexPage/BigTextWithImages/ImagesWithOutTextComponent";
 
 const BigTextWithImagesModule = () => {
     return(

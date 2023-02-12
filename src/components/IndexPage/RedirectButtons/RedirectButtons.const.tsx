@@ -1,7 +1,7 @@
-import VectorIcon from "../../../public/ButtonStartIcon/Vector.svg";
-import ActivityIcon from "../../../public/ButtonStartIcon/activity.svg";
-import TagrightIcon from "../../../public/ButtonStartIcon/tagright.svg";
-import HouseIcon from "../../../public/ButtonStartIcon/house.svg";
+import VectorIcon from "../../../../public/ButtonStartIcon/Vector.svg";
+import ActivityIcon from "../../../../public/ButtonStartIcon/activity.svg";
+import TagrightIcon from "../../../../public/ButtonStartIcon/tagright.svg";
+import HouseIcon from "../../../../public/ButtonStartIcon/house.svg";
 
 export type RedirectButtonsType = {
     name: string;

@@ -1,5 +1,5 @@
 import {Grid} from "@mui/material";
-import {BigText} from "@/components/BigTextWithImages/BigTextWithImages.styles";
+import {BigText} from "@/components/IndexPage/BigTextWithImages/BigTextWithImages.styles";
 
 const BigTextComponent = () => {
     return(
